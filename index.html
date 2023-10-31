@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amount of Girls Getting Married</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css">
+</head>
+
+<body>
+    <audio src="projectweek.mp3" id="myaudio" loop="loop" autoplay="autoplay"></audio>
+
+    <h2>Amount of Girls Under 18 Getting Married</h2>
+    <div class="odometer" id="odometer">00000</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+    <script>
+        let value = 0;
+        setInterval( () =>{
+            value +=1;
+            odometer.innerHTML = value;
+        },3000)
+    </script>
+</body>
+</html>

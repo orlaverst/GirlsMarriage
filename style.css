@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    /* bgcolor */
+    /* color */
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 3rem;
+}
+
+.odometer{
+    font-size: 4rem;
+
+}
+
+
